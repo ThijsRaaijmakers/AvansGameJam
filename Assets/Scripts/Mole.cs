@@ -34,6 +34,7 @@ public class Mole : MonoBehaviour
                 {
                     // Disable the sprite renderer to make it disappear
                     hit.collider.GetComponent<SpriteRenderer>().enabled = false;
+                    hit.collider.gameObject.tag = "Hit";
                     
                     // Optionally, you can also destroy the GameObject
                     // Destroy(hit.collider.gameObject);
@@ -56,6 +57,7 @@ public class Mole : MonoBehaviour
             // Show the object
             gameObject.GetComponent<Renderer>().enabled = true;
             gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+            gameObject.tag = "Mole";
 
             // Reset click status
             clicked = false;
