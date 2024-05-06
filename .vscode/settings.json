@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Whack-a-Teacher.sln"
+    "dotnet.defaultSolution": "AvansGameJam.sln"
 }
