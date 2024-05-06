@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Mole
   - Hit
+  - PlayButton
   layers:
   - Default
   - TransparentFX
